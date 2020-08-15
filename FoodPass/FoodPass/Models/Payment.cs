@@ -5,9 +5,7 @@ using System.Web;
 
 namespace FoodPass.Models
 {
-    public abstract class User
+    public class Payment
     {
-        public int Id { get; set; }
-        public String Name { get; set; }
     }
 }
