@@ -7,5 +7,10 @@ namespace FoodPass.Models
 {
     public class Payment
     {
+        public int Id { get; set; }
+        public float Amount { get; set; }
+        public int UserId { get; set; }
+        public int ShopId { get; set; }
+        public int LocationId { get; set; }
     }
 }
