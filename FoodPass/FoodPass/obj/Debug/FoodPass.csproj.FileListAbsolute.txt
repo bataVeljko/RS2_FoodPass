@@ -106,3 +106,6 @@ D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\Food
 D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\FoodPass.csproj.CopyComplete
 D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\FoodPass.dll
 D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\FoodPass.pdb
+D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\FoodPass.Migrations.InitialModel.resources
+D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\FoodPass.csproj.GenerateResource.cache
+D:\BATAVELJKO\FAKS\9. SEMESTAR\RS2\RS2_FoodPass\FoodPass\FoodPass\obj\Debug\FoodPass.Migrations.AddedModels.resources

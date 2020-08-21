@@ -20,6 +20,16 @@ namespace FoodPass.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Item> Items { get; set; }
+        public DbSet<Admin> Admins { get; set; }
+        public DbSet<Buyer> Buyers { get; set; }
+        public DbSet<Seller> Sellers { get; set; }
+        public DbSet<Support> Supports { get; set; }
+        public DbSet<Location> Locations { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<Shop> Shops { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
