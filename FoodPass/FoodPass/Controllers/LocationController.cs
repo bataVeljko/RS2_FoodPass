@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodPass.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,15 @@ namespace FoodPass.Controllers
         // GET: Location
         public ActionResult Index()
         {
-            return View();
+            var location = new Location()
+            {
+                Address = "Zajecar",
+                AddressNumber = 5,
+                City = "Zajecar",
+                ShopId = 2,
+                State = "Srbija"
+            };
+            return View(location);
         }
     }
 }

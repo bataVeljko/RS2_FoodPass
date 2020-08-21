@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodPass.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,12 @@ namespace FoodPass.Controllers
         // GET: Transaction
         public ActionResult Index()
         {
-            return View();
+            var transaction = new Transaction()
+            {
+                UserId = 3,
+                Amount = 122
+            };
+            return View(transaction);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodPass.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace FoodPass.Controllers
         // GET: Item
         public ActionResult Index()
         {
-            return View();
+            var item = new Item()
+            {
+                Name = "Smoki",
+                Price = 48,
+                Quantity = 87
+            };
+            return View(item);
         }
     }
 }

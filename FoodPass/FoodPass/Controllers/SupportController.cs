@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodPass.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace FoodPass.Controllers
         // GET: Support
         public ActionResult Index()
         {
-            return View();
+            var support = new Support()
+            {
+                Age = 40,
+                FirstName = "Janko",
+                LastName = "Ivanovic"
+            };
+            return View(support);
         }
     }
 }
