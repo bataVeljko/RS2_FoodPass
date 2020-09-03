@@ -11,6 +11,6 @@ namespace FoodPass.Models
         public const string Admin = "Admin";
         public const string Seller = "Seller";
         public const string Support = "Support";
-        public const string Customer = "Customer";
+        public const string Buyer = "Buyer";
     }
 }
