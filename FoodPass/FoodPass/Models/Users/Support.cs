@@ -7,6 +7,6 @@ namespace FoodPass.Models
 {
     public class Support : User
     {
-
+        public int ShopId { get; set; }
     }
 }

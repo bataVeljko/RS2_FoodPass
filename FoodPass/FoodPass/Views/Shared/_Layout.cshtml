@@ -16,6 +16,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Food pass", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
@@ -23,7 +28,15 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @if (User.IsInRole(FoodPass.Models.RoleName.Admin))
+                    {
+                    <li>@Html.ActionLink("Shop", "/", "Shop")</li>
+                    <li>@Html.ActionLink("Location", "/", "Location")</li>
+                    <li>@Html.ActionLink("Seller", "/", "Seller")</li>
+                    <li>@Html.ActionLink("Payment", "/", "Payment")</li>
+                    <li>@Html.ActionLink("Transaction", "/", "Transaction")</li>
+                    <li>@Html.ActionLink("Support", "/", "Support")</li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

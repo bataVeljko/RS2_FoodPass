@@ -195,8 +195,17 @@
     <Compile Include="Migrations\202009021847396_SeedUsers.Designer.cs">
       <DependentUpon>202009021847396_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009022029119_MembershipType.cs" />
+    <Compile Include="Migrations\202009022029119_MembershipType.Designer.cs">
+      <DependentUpon>202009022029119_MembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009022038249_UserShopIds.cs" />
+    <Compile Include="Migrations\202009022038249_UserShopIds.Designer.cs">
+      <DependentUpon>202009022038249_UserShopIds.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="Models\Users\Admin.cs" />
     <Compile Include="Models\Users\Buyer.cs" />
@@ -303,6 +312,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009021847396_SeedUsers.resx">
       <DependentUpon>202009021847396_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009022029119_MembershipType.resx">
+      <DependentUpon>202009022029119_MembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009022038249_UserShopIds.resx">
+      <DependentUpon>202009022038249_UserShopIds.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,6 +7,6 @@ namespace FoodPass.Models
 {
     public class Buyer : User
     {
-
+        private int MembershipTypeId { get; set; }
     }
 }

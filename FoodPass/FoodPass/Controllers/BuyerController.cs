@@ -20,5 +20,7 @@ namespace FoodPass.Controllers
             };
             return View(buyer);
         }
+
+        // POST: 
     }
 }

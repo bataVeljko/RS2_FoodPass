@@ -31,6 +31,7 @@ namespace FoodPass.Models
         public DbSet<Shop> Shops { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
 
+        public DbSet<MembershipType> MembershipTypes { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
