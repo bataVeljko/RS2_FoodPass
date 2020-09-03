@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace FoodPass.Controllers
 {
+    [Authorize]
     public class ShopController : Controller
     {
         // GET: Shop
